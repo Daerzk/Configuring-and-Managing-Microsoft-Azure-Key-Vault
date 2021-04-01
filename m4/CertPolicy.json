@@ -6,7 +6,7 @@
     "keyProperties": {
       "curve": null,
       "exportable": true,
-      "keySize": 2048,
+      "keySize": 4096,
       "keyType": "RSA",
       "reuseKey": true
     },
