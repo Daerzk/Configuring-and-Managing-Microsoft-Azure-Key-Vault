@@ -25,7 +25,7 @@ $keyVaultParameters = @{
 $keyVault = New-AzKeyVault @keyVaultParameters
 
 #If you already have a Key Vault
-$keyVault = Get-AzKeyVault -VaultName "cmk-key-vault-7373" -ResourceGroupName "cmk-key-vault-7373"
+$keyVault = Get-AzKeyVault -VaultName "cmk-key-vault-7182" -ResourceGroupName "LAB-RG"
 
 #Create an access policy for keys and secrets using policy
 $backupPolicyParameters = @{
