@@ -2,7 +2,7 @@
 $prefix = "cmk"
 
 #Basic variables
-$location = "eastus"
+$location = "australiasoutheast"
 $id = Get-Random -Minimum 1000 -Maximum 9999
 
 #Log into Azure
