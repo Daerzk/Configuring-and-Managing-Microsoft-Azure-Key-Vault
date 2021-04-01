@@ -25,11 +25,11 @@ $keyVaultParameters = @{
 $keyVault = New-AzKeyVault @keyVaultParameters
 
 #If you already have a Key Vault
-$keyVault = Get-AzKeyVault -VaultName "VAULT_NAME" -ResourceGroupName "RESOURCE_GROUP_NAME"
+$keyVault = Get-AzKeyVault -VaultName "cmk-key-vault-7182" -ResourceGroupName "LAB-RG"
 
 $policyParameters = @{
     SecretContentType = "application/x-pkcs12"
-    SubjectName = "CN=www.Contoso-ned.xyz"
+    SubjectName = "CN=www.daerzk.com"
     IssuerName = "Unknown"
     ValidityInMonths = 6
 }
