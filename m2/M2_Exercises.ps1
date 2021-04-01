@@ -9,7 +9,7 @@ $id = Get-Random -Minimum 1000 -Maximum 9999
 Add-AzAccount
 
 #Select the correct subscription
-Get-AzSubscription -SubscriptionName "SUB_NAME" | Select-AzSubscription
+Get-AzSubscription -SubscriptionName "Microsoft Partner Network" | Select-AzSubscription
 
 #Create a resource group for Key Vault
 $keyVaultGroup = New-AzResourceGroup -Name "$prefix-key-vault-$id" -Location $location
